@@ -13,8 +13,8 @@ include('src/controllers/contenidoController.php');
   <body>
     <div class="container">
         <!-- Content here -->
-        <h1>Mi Contenido</h1>
-        <h5>El contenido que tengo hasta el momento</h5>
+        <h1>Footprints</h1>
+        <h5>El contenido que queremos compartir, disponible para todos <a href="" class="btn btn-sm btn-success">Agregar</a></h5>
         <div class="row">
             <?php
             while ($i < count($arrayDat)){
